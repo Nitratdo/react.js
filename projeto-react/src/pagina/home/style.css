@@ -1,0 +1,52 @@
+body {
+    background-color: #929292d5;
+    animation: background 160ms infinite;
+}
+@keyframes background {
+    0%{color: pink}
+    10%{color: violet}
+    20%{color: plum}
+    30%{color: purple}
+    40%{color: blue}
+    50%{color: #168eff}
+    60%{color: yellowgreen}
+    70%{color: greenyellow}
+    80%{color: lime}
+    90%{color: limegreen}
+    100%{color: yellow}
+}
+.text {
+    position:  fixed;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 6px #010;
+    bottom: -160px;
+    right: -350px;
+}
+.input {
+    position: fixed;
+    bottom: 10px;
+    left: 200px;
+    width: 70%;
+    height: 5vmin;
+    border-radius: 5px;   
+}
+.input-box-border {
+    width: 10in;
+    margin: 10px;
+    padding: 10px; 
+}
+input {
+
+    border-radius: 15px;
+    border: none;
+    background-color: #555555;
+    font-size: large;
+    color: white;
+}
+.test {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}

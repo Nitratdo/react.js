@@ -1,0 +1,20 @@
+.top-border {
+    position: fixed;
+    display: grid;
+    top: -15px;
+    padding: 10px;
+    margin: 15px;
+    right: -15px;    
+}
+.top-search {
+    padding: 10px;
+    margin: 10px;
+    border-color: aqua;
+
+}
+.input-search-bar {
+    width: 10%;
+    height: 4vmin;
+    border-radius: 5px;
+    font-size: small;    
+}
